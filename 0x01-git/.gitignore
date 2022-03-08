@@ -1,0 +1,82 @@
+rules to never to push to much
+
+ Graphical Interfaces
+/book/en/Appendix-A:-Git-in-Other-Environments-Graphical-Interfaces
+
+> They are designed to look and work very much alike, so we’ll treat them like a single product in this chapter. We won’t be doing a detailed rundown of these tools (they
+Interactive Staging
+/book/en/Git-Tools-Interactive-Staging
+
+Interactive Staging In this section, you’ll look at a few interactive Git commands that can help you craft your commits to include only
+rev-list-options
+/docs/rev-list-options
+
+)'`, except that it runs much faster (especially with `--use-bitmap-index`). See the `CAVEATS` section in linkgit:git-cat-file[1] for the limitations of what "on-disk storage" means. endif::git-rev-list
+Git as a Client
+/book/en/Git-and-Other-Systems-Git-as-a-Client
+
+project and push your commits back upstream, using Git effectively as an SVN client. If you edit one of the files and commit it, you have a commit that exists in Git locally that doesn’t exist on the
+fetch-options
+/docs/fetch-options
+
+--all:: Fetch all remotes. -a:: --append:: Append ref names and object names of fetched refs to the existing contents of `.git/FETCH_HEAD`. Without this option old data in `.git/FETCH_HEAD
+git-diff-index
+/docs/git-diff-index
+
+source, or added to the destination. This ignores the amount of pure code movements within a file. In other words, rearranging lines in a file is not counted as much as other changes. This is the
+Git in Visual Studio Code
+/book/en/Appendix-A:-Git-in-Other-Environments-Git-in-Visual-Studio-Code
+
+Git in Visual Studio Code Visual Studio Code has git support built in. You will need to have git version 2.0.0 (or newer
+Managing an organization
+/book/en/GitHub-Managing-an-organization
+
+Managing an organization In addition to single-user accounts, GitHub has what are called Organizations. Like personal accounts
+Git in Visual Studio
+/book/en/Appendix-A:-Git-in-Other-Environments-Git-in-Visual-Studio
+
+Git in Visual Studio Visual Studio has Git tooling built directly into the IDE, starting with Visual Studio 2019 version 16.8.
+Git Objects
+/book/en/Git-Internals-Git-Objects
+
+symbolic link. The mode is taken from normal UNIX modes but is much less flexible — these three modes are the only ones that are valid for files (blobs) in Git (although other modes are used for
+Getting Git on a Server
+/book/en/Git-on-the-Server-Getting-Git-on-a-Server
+
+infrastructure will certainly entail differences in security measures or operating system tools, but hopefully this will give you the general idea of what’s involved.
+Packfiles
+/book/en/Git-Internals-Packfiles
+
+more efficient. Git does this if you have too many loose objects around, if you run the git gc command manually, or if you push to a remote server. To see what happens, you can manually
+Contributing to a Project
+/book/en/GitHub-Contributing-to-a-Project
+
+that the blinking rate is too fast. We think it’s much nicer to wait 3 seconds instead of 1 in between each state change. So let’s improve the program and submit it back to the project as a proposed
+sparse-index
+/docs/sparse-index
+
+will use big-O notation -- O(X) -- to denote how expensive certain operations are in terms of these dimensions. These dimensions are ordered by their magnitude: users (typically) modify fewer files
+git-push
+/docs/git-push
+
+| --dry-run] [--receive-pack=] [--repo=] [-f | --force] [-d | --delete] [--prune] [-v | --verbose] [-u | --set-upstream] [-o | --push-option=
+git-tools
+/docs/git-tools
+
+, however, search engines fill that role much more efficiently, so this manually-maintained list has been retired. See also the `contrib/` area, and the Git wiki: https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools
+diff-options
+/docs/diff-options
+
+that have been removed from the source, or added to the destination. This ignores the amount of pure code movements within a file. In other words, rearranging lines in a file is not counted as much
+api-parse-options
+/docs/api-parse-options
+
+parse-options API ================= The parse-options API is used to parse and massage options in Git and to provide a usage help with consistent look. Basics ------ The argument vector `argv
+git-pack-objects
+/docs/git-pack-objects
+
+as an access efficient archival format. In a packed archive, an object is either stored as a compressed whole or as a difference from some other object. The latter is often called a delta. The
+git-merge-index
+/docs/git-merge-index
+
+the index that need merging. -o:: Instead of stopping at the first failed merge, do all of them in one shot - continue with merging even when previous merges returned errors, and only return the
